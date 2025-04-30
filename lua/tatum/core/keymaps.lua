@@ -27,6 +27,7 @@ keymap("n", "<A-k>", "<CMD>tabnext<CR>", opts)
 keymap("n", "<S-h>", "<CMD>bprev<CR>", opts)
 keymap("n", "<S-l>", "<CMD>bnext<CR>", opts)
 keymap("n", "<leader>bd", "<CMD>bdelete<CR>", opts)
+keymap("n", "<leader>bq", "<CMD>%bdelete|e#|bd#<CR>", opts)
 
 -- File Input/Output
 keymap("n", "<leader>w", "<CMD>write<CR>", opts)
